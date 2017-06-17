@@ -1,4 +1,4 @@
 <html>
   <p id="p0"></p>
-  <script>function(){ document.getElementById("p0").innerHTML = new Date().toUTCString();}</script>
+  <script>function f0(){ var d = new Date(); document.getElementById("p0").innerHTML = d.toUTCString();} window.onload = f0;</script>
 </html>
